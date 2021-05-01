@@ -2555,11 +2555,14 @@ input, select, textarea {
 	}
 
 		.features li {
-			padding: 4em 4em 2em 6em ;
-			display: block;
+			padding: 6em 3em 3em 3em ;
+			display: flex;
 			position: relative;
-			text-align: left;
-			width: 50%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+			text-align: center;
+			width: 33.3%;
 		}
 
 			.features li:nth-child(1) {
@@ -3765,8 +3768,8 @@ input, select, textarea {
 			-webkit-order: 1;
 			-ms-order: 1;
 			order: 1;
-			padding-right: 3em;
-			width: 70%;
+			padding-right: 0em;
+			width: 100%;
 		}
 
 			#cta .inner header p {
@@ -3891,7 +3894,7 @@ input, select, textarea {
 	}
 
 		#footer .icons {
-			font-size: 1.25em;
+			font-size: 2.5em;
 		}
 
 			#footer .icons a {
@@ -4012,4 +4015,9 @@ input, select, textarea {
     object-position: 48% 10%;
     border-radius: 50%;
 
+  }
+
+  img.skill-logo {
+    width: 50%;
+    height: auto;
   }
