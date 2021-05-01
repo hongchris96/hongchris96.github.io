@@ -3657,7 +3657,7 @@ input, select, textarea {
 			height: 8.5em;
 			left: 50%;
 			letter-spacing: 0.225em;
-			margin-left: -8.5em;
+			margin-left: -8em;
 			opacity: 1;
 			outline: 0;
 			padding-left: 0.225em;
@@ -3997,3 +3997,19 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+
+
+  /* Profile Pic*/
+  img.profile-pic {
+    position: relative;
+    left: 50%;
+    bottom: 5%;
+    margin-left: -125px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: 48% 10%;
+    border-radius: 50%;
+
+  }
