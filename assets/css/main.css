@@ -2555,14 +2555,14 @@ input, select, textarea {
 	}
 
 		.features li {
-			padding: 6em 3em 3em 3em ;
+			padding: 3em 3em 1em 3em ;
 			display: flex;
 			position: relative;
       flex-direction: column;
       justify-content: center;
       align-items: center;
 			text-align: center;
-			width: 33.3%;
+			width: 25%;
 		}
 
 			.features li:nth-child(1) {
@@ -2603,6 +2603,14 @@ input, select, textarea {
 
 			.features li:nth-child(10) {
 				background-color: rgba(0, 0, 0, 0.35);
+			}
+
+      .features li:nth-child(11) {
+				background-color: rgba(0, 0, 0, 0.385);
+			}
+
+      .features li:nth-child(12) {
+				background-color: rgba(0, 0, 0, 0.42);
 			}
 
 			.features li:before {
@@ -4018,6 +4026,6 @@ input, select, textarea {
   }
 
   img.skill-logo {
-    width: 50%;
+    width: 60%;
     height: auto;
   }
